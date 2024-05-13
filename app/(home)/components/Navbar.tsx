@@ -8,24 +8,24 @@ import { SiGithub } from "react-icons/si";
 const Navbar = () => {
   const social = [
     {
-      link: "",
+      link: "https://www.linkedin.com/in/shubham-rawat-844787217/",
       label: "Linkdedin",
       Icon: SiLinkedin,
     },
     {
-      link: "",
+      link: "https://twitter.com/ShubhamRaw64409",
       label: "Twitter",
       Icon: FaXTwitter,
     },
     {
-      link: "",
+      link: "https://github.com/Shubhamrawatbox",
       label: "Github",
       Icon: SiGithub,
     },
   ];
   return (
     <>
-      <nav className="py-10 flex justify-between items-center">
+      <nav className="py-10 flex justify-between items-center animate-move-down">
         <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
           Shubham Rawat 👨‍💻
         </h1>

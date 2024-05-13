@@ -7,7 +7,7 @@ import { FaShoppingBag } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <div className="flex items-center justify-between min-h-[60vh] flex-col-reverse gap-10 lg:gap-0 lg:flex-row">
+    <div className="flex items-center justify-between animate-move-up min-h-[60vh] flex-col-reverse gap-10 lg:gap-0 lg:flex-row">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold">
           Nice to meet you 👋

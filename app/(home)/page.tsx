@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Project from "./components/Project";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 const page = () => {
   return (
@@ -15,7 +16,7 @@ const page = () => {
           <HeroSection />
         </div>
         <div className="h-10 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full">
-          <div className="max-w-7xl mx-auto p-5 mt-2">
+          <div className="max-w-7xl mx-auto p-5 mt-48 xl:mt-2">
             <AboutMe />
           </div>
           <div className="max-w-7xl mx-auto p-5 mt-20">
@@ -26,6 +27,7 @@ const page = () => {
           </div>
           <div className="max-w-7xl mx-auto p-5 mt-20">
             <Experience />
+            <Footer/>
           </div>
         </div>
       </div>
