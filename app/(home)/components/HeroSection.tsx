@@ -21,7 +21,7 @@ const HeroSection = () => {
             "I'm a Skilled Frontend Developer with 2.5 years of experience in building modern web applications."
           }
         </p>
-        <Link href={"mailto:abcd@gmail.com"} className="inline-block group">
+        <Link href={"mailto:shubhamrawatbox@gmail.com"} className="inline-block group">
           <Title text="Contact Me"/>
         </Link>
       </div>
