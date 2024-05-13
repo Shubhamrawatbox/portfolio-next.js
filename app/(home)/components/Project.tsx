@@ -59,7 +59,7 @@ const Project = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
       {projects?.map((project, index) => {
         return (
-          <Link href={project.link}>
+          <Link href={project.link} key={index}>
             <div className={cn('p-5 rounded-md',project.background)}>
               <DirectionAwareHover imageUrl={project.cover} className="w-full space-y-5 cursor-pointer">
                 <div className="space-y-4">

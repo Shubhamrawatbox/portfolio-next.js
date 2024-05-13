@@ -4,7 +4,6 @@ import React from "react";
 import Title from "./Title";
 import { FaShoppingBag } from "react-icons/fa";
 
-
 const HeroSection = () => {
   return (
     <div className="flex items-center justify-between animate-move-up min-h-[60vh] flex-col-reverse gap-10 lg:gap-0 lg:flex-row">
@@ -40,7 +39,7 @@ const HeroSection = () => {
         <div className="absolute bottom-5 sm:bottom-16 left-0 sm:-left-10">
         <Button borderRadius="0.5rem" className="p-3 font-semibold flex items-center">
         <FaShoppingBag />
-          <p className="ml-2">I'm available for work</p>
+          <p className="ml-2">{"I'm available for work"}</p>
         </Button>
         </div>
       </div>
