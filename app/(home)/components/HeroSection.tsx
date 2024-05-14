@@ -20,8 +20,11 @@ const HeroSection = () => {
             "I'm a Skilled Frontend Developer with 2.5 years of experience in building modern web applications."
           }
         </p>
-        <Link href={"mailto:shubhamrawatbox@gmail.com"} className="inline-block group">
-          <Title text="Contact Me"/>
+        <Link
+          href={"mailto:shubhamrawatbox@gmail.com"}
+          className="inline-block group"
+        >
+          <Title text="Contact Me" />
         </Link>
       </div>
       <div className="relative">
@@ -37,10 +40,20 @@ const HeroSection = () => {
           <div className="glow absolute top-[40%] right-[50%]"></div>
         </div>
         <div className="absolute bottom-5 sm:bottom-16 left-0 sm:-left-10">
-        <Button borderRadius="0.5rem" className="p-3 font-semibold flex items-center">
-        <FaShoppingBag />
-          <p className="ml-2">{"I'm available for work"}</p>
-        </Button>
+          <Link
+            href={
+              "https://drive.google.com/file/d/13PFthdmLzZ0_02376nYbZ22WEdj3_q1X/view?usp=sharing"
+            }
+            target="_blank"
+            download
+          >
+            <Button
+              borderRadius="0.5rem"
+              className="p-3 font-semibold"
+            >
+              <p className="ml-2">{" 📄 View & Download CV"}</p>
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
