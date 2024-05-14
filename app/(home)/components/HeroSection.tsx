@@ -42,7 +42,7 @@ const HeroSection = () => {
         <div className="absolute bottom-5 sm:bottom-16 left-0 sm:-left-10">
           <Link
             href={
-              "https://drive.google.com/file/d/13PFthdmLzZ0_02376nYbZ22WEdj3_q1X/view?usp=sharing"
+              "https://drive.google.com/file/d/1ZEuYRvpe0MaGlAszzj9q5WqfNbq0JXkZ/view?usp=sharing"
             }
             target="_blank"
             download
